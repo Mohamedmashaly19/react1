@@ -1,0 +1,69 @@
+.link-nav{
+   text-decoration: none;
+}
+.navbarfix {
+   position: sticky;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 9009;
+   
+}
+.nabar{
+   transition: 0.6s;
+}
+
+
+ .icon-dev{
+width: 50px;
+padding: 8px 0;
+border-radius: 50%;
+margin: 0 5px;
+ }
+ .footer{
+    background-color: rgb(44,62,80);
+ }
+
+ .footer-end{
+    background-color: rgb(32, 35, 39);
+ }
+ .undeLine{
+    width:100px;
+    height: 4px;
+    background-color: rgb(32, 35, 39); }
+
+    .layer{
+        background-color:rgba(26,188,156,0.7);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: .7s;
+    
+    }
+    .img-hover:hover .layer{
+        opacity: 1;
+    }
+    #click-div{
+      background-color: rgba(26,188,156,0.3);
+      position: fixed;
+      z-index: 999999;
+      /* position: absolute; */
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+
+    }
+    .img-div{
+      width: 500px;
+   
+    }
+    .active{
+      background-color: rgba(26,188,156,0.7) !important;
+      border-radius: 10px;
+    }
+    
